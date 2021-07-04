@@ -16,10 +16,10 @@
 <header class="hero">
     <h1 class="app-title col-12 text-uppercase container-fluid text-center">Weather Dashboard</h1>
 
-    <main class="container">
+    <main class="container" style="padding: 8px;">
         <div class="row p-3">
 
-                    <div class="card col-3">
+                    <div class="card col-3" style="padding: 5px; margin: 5px;">
                       <h3 class="card-header text-uppercase">Search by City</h3>
                       <form id="weather-form" class="card-body">
                         <label class="form-label" for="city">city</label>
@@ -36,14 +36,49 @@
                     </div>
     
 
-                        <div class="col-8" id="city-name">
-                            <div class="row card-body" id="current-weather">
-                                <h3 class="card-title col-sm-4"><span id="current-city"></span>(<span id="current-date"></span>)<img id="current-icon" src="" alt="Weather Icon"</h3>
+                        <div class="col-8 card" style="margin: 5px; padding: 5px;" id="city-name">
+                            <div class="row card-body"  style= "border: 5px; margin: 8px;" id="current-weather">
+                                <h3 class="card-title col-sm-4"><span id="current-city"></span>(<span id="current-date"></span>)<img id="current-icon" src="" alt="Weather Icon"></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aut recusandae deleniti pariatur magni cupiditate, facilis ut accusantium corporis veritatis temporibus earum nam nostrum iure sed culpa necessitatibus perspiciatis natus!</p>
 
                             </div>
-                            <div class="row" id="forecast">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aut recusandae deleniti pariatur magni cupiditate, facilis ut accusantium corporis veritatis temporibus earum nam nostrum iure sed culpa necessitatibus perspiciatis natus!</p>
+                            <div class="row card-body" id="forecast">
+                                <h2>Five Day Forecast</h2>
+                                <div class="col-2 card-body day justify-content-space-around">
+                                    <h5 class="card-title" id="today"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit laudantium voluptate eligendi molestias soluta deserunt dicta nihil. Sequi rerum autem exercitationem distinctio officiis fugiat consectetur natus assumenda pariatur eveniet?
+                                    </p>
+                                </div>
+                                <div class="col-2 card-body day justify-content-space-around">
+                                    <h5 class="card-title" id="tomorrow"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit laudantium voluptate eligendi molestias soluta deserunt dicta nihil. Sequi rerum autem exercitationem distinctio officiis fugiat consectetur natus assumenda pariatur eveniet?
+                                    </p>
+                                </div>
+                                <div class="col-2 card-body day justify-content-space-around">
+                                    <h5 class="card-title" id="day-three"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit laudantium voluptate eligendi molestias soluta deserunt dicta nihil. Sequi rerum autem exercitationem distinctio officiis fugiat consectetur natus assumenda pariatur eveniet?
+                                    </p>
+                                </div>
+                                <div class="col-2 card-body day justify-content-space-around">
+                                    <h5 class="card-title" id="day-four"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit laudantium voluptate eligendi molestias soluta deserunt dicta nihil. Sequi rerum autem exercitationem distinctio officiis fugiat consectetur natus assumenda pariatur eveniet?
+                                    </p>
+                                </div>
+                                <div class="col-2 card-body day justify-content-space-around">
+                                    <h5 class="card-title" id="day-five"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit laudantium voluptate eligendi molestias soluta deserunt dicta nihil. Sequi rerum autem exercitationem distinctio officiis fugiat consectetur natus assumenda pariatur eveniet?
+                                    </p>
+                                </div>
 
                             </div>
                         </div>
