@@ -14,3 +14,7 @@ JS
 
 ## Links
 
+![Screenshot1](assets/images/Screenshot1.png)
+
+[Live-link](https://fausnightm.github.io/weather-api/)
+
